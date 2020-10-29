@@ -77,6 +77,6 @@ int main (int argc, char *argv[])
     cache_lfu::TestIsFull(150);
     cache_lfu::TestOldFreq(100);
     cache_lfu::TestRealLFU();
-    std::cout << "Tests passed!";
+    std::cout << "Tests passed!" << std::endl;
 	return 0;
 }
